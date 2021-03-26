@@ -1,0 +1,60 @@
+html {
+  background-image: linear-gradient(to right top, #218dc6, #00aadb, #00c5ce, #00db9b, #12eb4a);
+   background-repeat: no-repeat;
+   height: 100%;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+
+}
+.name {
+  font-family: 'Lato', sans-serif;
+  color: white;
+}
+
+body {
+
+  width: 80%
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container1 {
+  height: 200vh;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+nav {
+  font-size: 1.2rem;
+  font-family: 'Lato', sans-serif;
+  margin-top: 25px;
+  margin-right: 10px;
+}
+
+a {
+  margin-left: 10px;
+  text-decoration: overline;
+  color: white;
+  margin-right: 15px;
+}
+
+.container2 {
+  background-color: white;
+  padding: 15px 15px 15px 15px;
+  box-shadow: 10px 10px 5px grey;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 20px;
+
+}
