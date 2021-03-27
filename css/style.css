@@ -1,5 +1,5 @@
 html {
-  background-image: linear-gradient(to right top, #218dc6, #00aadb, #00c5ce, #00db9b, #12eb4a);
+background-image: linear-gradient(to right top, #218dc6, #009eca, #00adc3, #00bbb3, #28c69c);
    background-repeat: no-repeat;
    height: 100%;
    width: 100%;
@@ -56,8 +56,35 @@ a {
   box-shadow: 10px 10px 5px grey;
 }
 
+.container3 {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container4 {
+  background-image: linear-gradient(to right top, #218dc6, #009eca, #00adc3, #00bbb3, #28c69c);
+  padding: 15px 15px 15px 15px;
+  box-shadow: 10px 10px 5px grey;
+}
+
+.container4 p {
+  color: white;
+}
+
+.container4 h1 {
+  color: white;
+}
+
 p {
   font-family: 'Open Sans', sans-serif;
   margin-bottom: 20px;
 
+}
+
+footer {
+  display: flex;
+  justify-content: center;
 }
