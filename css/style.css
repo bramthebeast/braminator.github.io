@@ -13,8 +13,9 @@ html {
 }
 
 body {
-
-  width: 80%
+  height: 100%;
+  width: 80%;
+  height: 200vh;
 }
 
 header {
@@ -23,14 +24,16 @@ header {
 }
 
 .container1 {
-  height: 200vh;
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
 }
 
 main {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: 100%;
 }
 
 nav {
