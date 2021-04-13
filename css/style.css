@@ -107,6 +107,10 @@ footer {
    justify-content: space-between;
   }
 
+  .scroll {
+    overflow: hidden;
+  }
+
 
   .topnav {
     position: fixed;
