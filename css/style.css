@@ -1,31 +1,37 @@
 
-
-html {
-background-image: linear-gradient(to right top, #218dc6, #009eca, #00adc3, #00bbb3, #28c69c);
-   background-repeat: no-repeat;
-   height: 100%;
-   width: 100%;
-   display: flex;
-   justify-content: center;
-
+.html {
+  height: 100%;
+  width:100%;
 }
+
 .name {
+
   font-family: 'Lato', sans-serif;
   color: white;
 }
 
 body {
-  height: 100%;
-  width: 80%;
-  height: 200vh;
+
+  padding: 0;
+  margin: 0;
+ height:100%;
+ width: 100%;
 }
 
 header {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .container1 {
+
+  height: 100vh;
+   background-image: linear-gradient(to right top, #218dc6, #009eca, #00adc3, #00bbb3, #28c69c);
+   background-repeat: no-repeat;
+
+   display: flex;
+   justify-content: center;
+
 
   display: flex;
   justify-content: space-around;
@@ -90,6 +96,13 @@ footer {
 
 @media all and (max-width: 1500px) {
 
+  .name {
+    margin-left: 20px;
+  }
+  header {
+   justify-content: space-between;
+  }
+
 
   .topnav {
     position: fixed;
@@ -107,8 +120,8 @@ footer {
   }
 
   .topnav a {
-    padding-top: 40px;
-    padding-bottom:40px;
+    padding-top: 20px;
+    padding-bottom:20px;
   }
 
 
@@ -118,13 +131,29 @@ footer {
 
 
 
+
   .icon {
     position: fixed;
     visibility: visible;
     right: 50px;
     top: 50px;
-    color: white;
+    content: url("../menu.png");
+    cursor: pointer;
 
   }
 
+  .cross {
+    content: url("../cancel.png");
+
+  }
+
+
+}
+
+@media all and (max-width: 800px)
+
+{
+  .container1 {
+    height: auto;
+  }
 }
